@@ -1,4 +1,4 @@
-# Rootiest Fish Configuration
+# Rootiest Kitty Configuration
 
 ```none
  ██▀███   ▒█████   ▒█████  ▄▄▄█████▓ ██▓▓█████   ██████ ▄▄▄█████▓
