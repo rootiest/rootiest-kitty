@@ -71,7 +71,7 @@ The rootiest kitty configuration you will ever see!
 ## Features
 
 - Smart key bindings
-- Integration with neovim
+- Integration with NeoVim
 - Integration with fish shell
 - Catppuccin theme by default
 - Integrates cleanly with other Rootiest projects
@@ -79,11 +79,19 @@ The rootiest kitty configuration you will ever see!
 
 ## Companion Tools
 
-[Rootiest Fish Conf](https://github.com/rootiest/rootiest-fish) - Fish shell configuration that pairs well with this kitty configuration and the neovim configuration.
+[Rootiest Fish Conf](https://github.com/rootiest/rootiest-fish) -
+Fish shell configuration that pairs well with this kitty configuration
+and the NeoVim configuration.
 
-[Rootiest Neovim](https://github.com/rootiest/rootiest-nvim) - A neovim config built to work alongside this and the fish config.
+[Rootiest Neovim](https://github.com/rootiest/rootiest-nvim) -
+A NeoVim config built to work alongside this and the fish config.
 
-[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/) - A collection of fonts that include many icons and glyphs that are used in this configuration. The default font is Monaspace Krypton and kitty uses the Symbols Only Nerd Font.
+[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/) -
+A collection of fonts that include many icons and glyphs that are used in this configuration.
+
+## Dotfiles
+
+[Rootiest Dotfiles](https://github.com/rootiest/dotfiles)
 
 ## Credits
 
