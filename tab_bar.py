@@ -120,8 +120,8 @@ def draw_right_status(draw_data: DrawData, screen: Screen) -> None:
 
 def create_cells() -> list[str]:
     return [
-        get_current_artist_title(),
-        format_cell(get_wakatime_today()),
+        # get_current_artist_title(),
+        # format_cell(get_wakatime_today()),
         format_cell(get_date()),
         format_cell(get_time()),
         get_battery_level()["icon"],
