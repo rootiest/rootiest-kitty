@@ -63,7 +63,13 @@ The rootiest kitty configuration you will ever see!
 4. Clone the repository
 
    ```bash
-   git clone https://github.com/rootiest/rootiest-kitty.git ~/.config/kitty
+   git clone --recurse-submodules https://github.com/rootiest/rootiest-kitty.git ~/.config/kitty
+   ```
+
+   If you already cloned without `--recurse-submodules`, initialize submodules manually:
+
+   ```bash
+   git submodule update --init
    ```
 
 5. **Enjoy!** 🎉
@@ -75,7 +81,7 @@ The rootiest kitty configuration you will ever see!
 - Integration with fish shell
 - Catppuccin theme by default
 - Integrates cleanly with other Rootiest projects
-- Provides several session options for different workflows
+- Single clean session with splits layout
 
 ## Companion Tools
 
