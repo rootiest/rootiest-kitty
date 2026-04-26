@@ -79,6 +79,3 @@ colors=(
   [dark - magenta]="#d890b6"
   [dark - gold]="#d0b879"
 )
-
-# Export the dictionary if needed
-export colors

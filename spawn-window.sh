@@ -138,11 +138,19 @@ o | overlay | over) type="overlay" ;;
   ;;
 esac
 
-# Convert color names to hex codes
-active_bg=$(convert_color "$active_bg")
-active_fg=$(convert_color "$active_fg")
-inactive_bg=$(convert_color "$inactive_bg")
-inactive_fg=$(convert_color "$inactive_fg")
+# Convert color names to hex codes if they are set
+if [[ -n "$active_bg" ]]; then
+  active_bg=$(convert_color "$active_bg")
+fi
+if [[ -n "$active_fg" ]]; then
+  active_fg=$(convert_color "$active_fg")
+fi
+if [[ -n "$inactive_bg" ]]; then
+  inactive_bg=$(convert_color "$inactive_bg")
+fi
+if [[ -n "$inactive_fg" ]]; then
+  inactive_fg=$(convert_color "$inactive_fg")
+fi
 
 # Adjust the type for kitty command
 kitty_type="window"

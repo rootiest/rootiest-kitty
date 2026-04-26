@@ -124,7 +124,7 @@ def create_cells() -> list[str]:
         # format_cell(get_wakatime_today()),
         format_cell(get_date()),
         format_cell(get_time()),
-        get_battery_level()["icon"],
+        # get_battery_level()["icon"],
     ]
 
 
